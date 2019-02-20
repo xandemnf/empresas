@@ -15,7 +15,7 @@ a{text-decoration: none}
 h2{font-size: 1.5em;color:#333;}
 p{font-size: 1em; color:#777;}
 
-/* HEADER */
+/***************************** HEADER *****************************/
 .cabecalho{
 	width: 100%;
 	float: left;
@@ -26,7 +26,7 @@ p{font-size: 1em; color:#777;}
    width: 90px;
    height: 90px;
    float: left;
-  }
+ }
 
 .cabecalho form{
    width: 30%;
@@ -38,11 +38,83 @@ p{font-size: 1em; color:#777;}
    width: 85%;
    float: left;
    padding: 15px 10px;
+   border-radius: 5px 0px 0px 5px;
 }
 
 .cabecalho button{
    width: 15%;
    float: right;
    padding: 15px 10px;
+   border-radius: 0px 5px 5px 0px;
 }
 
+/***************************** MENU *****************************/
+.menu{
+	width: 100%;
+	float: left;
+	background-color: #111;
+	padding:18px 8%;
+}
+
+.menu li{
+	float: left;
+}
+
+.menu li a{
+	color: #9d9d9d;
+	margin-right: 25px;
+}
+
+.menu li a:hover{
+	color: #fff;
+}
+
+.social-icons{
+	float: right;
+}
+
+.social-icons a{
+	color: #fff;
+	margin-right: 15px;
+}
+
+.btn-facebook:hover{
+	color:#3b5998;
+}
+.btn-twitter:hover{
+	color:#54a4d6;
+}
+.btn-instagram:hover{
+	color:#3f729b;
+}
+.btn-google:hover{
+	color:#d73d32;
+}
+
+/***************************** MAIN *****************************/
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0px 20px 20px 0px;
+}
+
+.sobre h2{
+    margin-bottom:15px;
+}
+
+.sobre img{
+    width:50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0px 15px 15px 0px; 
+}
+
+.sobre p{
+	text-align: justify;
+}
