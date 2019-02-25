@@ -11,7 +11,7 @@ p{font-size: 1em; color:#777;}
 .logo a img{width: 90px;height: 90px;float: left;}
 .cabecalho form{width: 30%; float: right; padding-top: 18px;}
 .cabecalho input[type="text"]{ width: 85%; float: left; padding: 15px 10px; border-radius: 5px 0px 0px 5px;}
-.cabecalho button{ width: 15%; float: right; padding: 15px 10px; border-radius: 0px 5px 5px 0px;}
+.cabecalho button{ width: 15%; float: right; paddingdding: 15px 10px; border-radius: 0px 5px 5px 0px;}
 /***************************** MENU *****************************/
 .menu{width: 100%; float: left; background-color: #111; padding:18px 8%;}
 .menu li{float: left;}
@@ -41,3 +41,6 @@ p{font-size: 1em; color:#777;}
 .newsletter form{width: 100%;float: left;margin-top: 10px;}
 .newsletter form input{width:40%;margin-right: 1%; float:left; padding: 15px 10px;border:1px solid #fff;border-radius: 5px;background-color: initial;color:#fff;}
 .newsletter button{width:18%;background-color: #fff;padding: 15px 10px;float: right;border-radius: 5px;}
+/***************************** FOOTER *****************************/
+.rodape{width:100%;float:left;background-color:#264b65;padding:20px 8%;}
+.rodape p{color:#fff;}
