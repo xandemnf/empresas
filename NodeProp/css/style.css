@@ -6,4 +6,12 @@ ul{list-style: none;}
 img{max-width: 100%;}
 /******* HEADER ******/
 .cabecalho{width: 100%;float: left;padding: 3% 4%;}
-.logo{height: 56px;float: left;background: url(../img/logo-mobile.png) center center/56px no-repeat;font-size: 0px}
+.logo{height: 56px;width:56px;float: left;background: url("../img/logo-mobile.png") center center/56px no-repeat;font-size: 0px}
+.btn-menu{width: 56px;height: 56px;float: right;text-align: center; color: #fff;cursor: pointer;border-radius: 30px;background: linear-gradient(to right, #ce2e3c, #da6709);}
+/* MENU */
+.menu{width: 100%;height: 100%;position: fixed;background-color: rgba(0,0,0,0.9);margin:-3% -4%;}
+.btn-close{font-size: 3em;color: #fff;float: right;cursor: pointer;margin-right: 5%}
+.menu ul{width:100%;text-align: center;float: left;}
+.menu li{padding: 1.5%}
+.menu li a{font-size: 2em;color: #fff;padding: 1.5% 3%;}
+.menu li a:hover{border: 1px solid #da6709;}
