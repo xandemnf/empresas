@@ -19,3 +19,23 @@ img{max-width: 100%;}
 .banner{width:100%;float:left; padding: 3% 4%; text-align: center;background: url("../img/bg.jpg") no-repeat fixed;}
 .title h2{font-size: 2.5em; font-weight: 700;color: #fff;}
 .title h3{font-size:1.5em; color:#fff;}
+.buttons{width: 100%;margin-top: 2%;}
+.buttons i{float: right;line-height: unset;}
+.btn-cadastrar{width: 100%;float:left;font-size: 1.5em;text-align: center;cursor:pointer;padding: 5%;color: #130400; background-color: #fff;border-radius: 5px;font-weight: 400}
+.btn-sobre{width: 100%;float:left;font-size: 1.5em;text-align: center;cursor:pointer;padding: 5%;color: #fff; background-color: #130400;border-radius: 5px;margin-top: 2%;font-weight: 400}
+/******* MAIN ******/
+.servicos{width:100%;float:left;padding: 3% 4%;margin-top: 2%;}
+.servico{width: 100%;background-color: #fff;text-align: left;}
+.servico a:nth-child(1){text-align: center;display: block;}
+.servico img{border-radius: 7px 7px 0px 0px;}
+.inner{padding: 4%;}
+.inner a{font-size: 1.3em;color:#130400;font-weight: 700;text-align: left !important}
+.inner h4{font-size: 1.1em;margin-top: 2%;}
+.inner p{margin-top: 3%;line-height: 1.5em;}
+/******* NEWS LETTER ******/
+.newsletter{width:100%;float:left;text-align: center;background-color: #130400;color:#fff;padding: 3% 4%}
+.newsletter h2{font-size:1.5em;color:#fff;font-weight:700;}
+.newsletter h3{color:#fff;}
+.newsletter form{margin-top: 2%;}
+.newsletter input{width:100%;background-color:unset;color:#fff;padding: 5%;border: 1px solid rgba(255,255,255,0.3);font-weight: 400;border-radius: 5px;}
+.newsletter button{width:100%;padding: 5%;margin-top: 2%;cursor:pointer;border-radius: 5px;}

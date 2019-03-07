@@ -29,7 +29,7 @@
 	<a href="index.html"><h1 class="logo">NodeProp - Soluções Digitais</h1></a>
 	<button class="btn-menu"><i class="fas fa-bars"></i></button>
 	<nav class="menu">
-		<a href="#" class="btn-close">X</a>
+		<a href="#" class="btn-close"><i class="far fa-times-circle"></i></a>
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Clientes</a></li>
@@ -45,13 +45,68 @@
 		<h2>OUSE INOVAR</h2>
 		<h3>Criamos experiências e estabelecemos ações estratégicas que conectam marcas a consumidores</h3>
 	</div>
+
+	<div class="buttons">
+		<button class="btn-cadastrar">Cadastrar<i class="far fa-arrow-alt-circle-right"></i></button>
+		<button class="btn-sobre">Sobre<i class="far fa-question-circle"></i></button>
+	</div>
 </div>
+
+<main class="servicos">
+	<article class="servico">
+		<a href="#"><img src="img/criacoes.jpg" alt="Error 404"></a>
+		<div class="inner">
+			<a href="#">Campanhas Publicitárias</a>
+			<h4>Impressos, VTs e Jingles</h4>
+			<p>Se você está precisando de algum material em específico, conte com nossos profissionais.
+			Eles farão toda campanha publicitária, VTs, Outdoors, Folders, Flyers e tudo mais impressões em um padrão de alta qualidade!</p>
+		</div>
+	</article>
+
+	<article class="servico">
+		<a href="#"><img src="img/md.jpg" alt="Error 404"></a>
+		<div class="inner">
+			<a href="#">Marketing Digital</a>
+			<h4>Administração de Redes Socias</h4>
+			<p>Se você está precisando de algum material em específico, conte com nossos profissionais.
+			Eles farão toda campanha publicitária, VTs, Outdoors, Folders, Flyers e tudo mais impressões em um padrão de alta qualidade!</p>
+		</div>
+	</article>
+
+	<article class="servico">
+		<a href="#"><img src="img/cs.jpg" alt="Error 404"></a>
+		<div class="inner">
+			<a href="#">Sites Administráveis</a>
+			<h4>Impressos, VTs e Jingles</h4>
+			<p>Se você está precisando de algum material em específico, conte com nossos profissionais.
+			Eles farão toda campanha publicitária, VTs, Outdoors, Folders, Flyers e tudo mais impressões em um padrão de alta qualidade!</p>
+		</div>
+	</article>
+</main>
+
+<!--NEWS LETTER-->
+<section class="newsletter">
+	<h2>Inscreva-se agora!</h2>
+	<h3>Receba Novidades, dicas e muito mais</h3>
+	<form>
+		<input type="email" name="email" placeholder="Seu email...">
+		<button>Cadastrar</button>
+	</form>
+	
+</section>
+
+
+
+
+
+
 
 
 
 
 <!-- JQUERY -->
 <script	src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"> </script>
+
 <script>
 	$(".btn-menu").click(function(){
 		$(".menu").show();
