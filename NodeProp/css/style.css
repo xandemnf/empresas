@@ -4,10 +4,16 @@ body{background-color: #f5f5f5;}
 a{text-decoration: none;}
 ul{list-style: none;}
 img{max-width: 100%;}
+
+/******* CONTAINER ******/
+.container{width: 100%;float: left;padding: 3% 4%;text-align: center;}
+/******* BG COLORS ******/
+.bg-gradient{background: linear-gradient(to right, #ce2e3c, #da6709);}
+.bg-black{background-color: #130400;}
+.bg-white{background-color: #fff}
 /******* HEADER ******/
-.cabecalho{width: 100%;float: left;padding: 3% 4%;}
 .logo{height: 56px;width:56px;float: left;background: url("../img/logo-mobile.png") center center/56px no-repeat;font-size: 0px}
-.btn-menu{width: 56px;height: 56px;float: right;text-align: center; color: #fff;cursor: pointer;border-radius: 30px;background: linear-gradient(to right, #ce2e3c, #da6709);}
+.btn-menu{width: 56px;height: 56px;float: right;text-align: center; color: #fff;cursor: pointer;border-radius: 30px;}
 /* MENU */
 .menu{display:none;width: 100%;height: 100%;position: fixed;background-color: rgba(0,0,0,0.9);margin:-3% -4%;}
 .btn-close{font-size: 3em;color: #fff;float: right;cursor: pointer;margin-right: 5%}
@@ -16,16 +22,16 @@ img{max-width: 100%;}
 .menu li a{font-size: 2em;color: #fff;padding: 1.5% 3%;}
 .menu li a:hover{border: 1px solid #da6709;}
 /******* BANNER ******/
-.banner{width:100%;float:left; padding: 3% 4%; text-align: center;background: url("../img/bg.jpg") no-repeat fixed;}
+.banner{background: url("../img/bg.jpg") no-repeat fixed;}
 .title h2{font-size: 2.5em; font-weight: 700;color: #fff;}
 .title h3{font-size:1.5em; color:#fff;}
 .buttons{width: 100%;margin-top: 2%;}
 .buttons i{float: right;line-height: unset;}
-.btn-cadastrar{width: 100%;float:left;font-size: 1.5em;text-align: center;cursor:pointer;padding: 5%;color: #130400; background-color: #fff;border-radius: 5px;font-weight: 400}
-.btn-sobre{width: 100%;float:left;font-size: 1.5em;text-align: center;cursor:pointer;padding: 5%;color: #fff; background-color: #130400;border-radius: 5px;margin-top: 2%;font-weight: 400}
+.btn-cadastrar{font-size: 1.5em;cursor:pointer;color: #130400;border-radius: 5px;font-weight: 400}
+.btn-sobre{font-size: 1.5em;cursor:pointer;color: #fff; border-radius: 5px;margin-top: 2%;font-weight: 400}
 /******* MAIN ******/
-.servicos{width:100%;float:left;padding: 3% 4%;margin-top: 2%;}
-.servico{width: 100%;background-color: #fff;text-align: left;}
+.servicos{margin-top: 2%;}
+.servico{width: 100%;text-align: left;}
 .servico a:nth-child(1){text-align: center;display: block;}
 .servico img{border-radius: 7px 7px 0px 0px;}
 .inner{padding: 4%;}
@@ -33,9 +39,64 @@ img{max-width: 100%;}
 .inner h4{font-size: 1.1em;margin-top: 2%;}
 .inner p{margin-top: 3%;line-height: 1.5em;}
 /******* NEWS LETTER ******/
-.newsletter{width:100%;float:left;text-align: center;background-color: #130400;color:#fff;padding: 3% 4%}
-.newsletter h2{font-size:1.5em;color:#fff;font-weight:700;}
-.newsletter h3{color:#fff;}
+.newsletter h2{font-size:1.32em;color:#fff;font-weight:700;}
+.newsletter h3{font-size:1em;color:#fff;}
 .newsletter form{margin-top: 2%;}
 .newsletter input{width:100%;background-color:unset;color:#fff;padding: 5%;border: 1px solid rgba(255,255,255,0.3);font-weight: 400;border-radius: 5px;}
 .newsletter button{width:100%;padding: 5%;margin-top: 2%;cursor:pointer;border-radius: 5px;}
+/******* FOOTER ******/
+.social-icons a{font-size: 1.5em;color: rgba(255,255,255,0.7);margin-right: 3%;}
+.social-icons a:hover{color: rgb(255,255,255);}
+.social-icons a:last-child{margin-right: 0px;}
+.copyright{margin-top: 2%;color: rgba(255,255,255,0.7);font-weight: 400}
+
+
+
+
+/******* CSS BRUTO SEM OPTIMIZAÇÃO ******/
+
+/******* RESET ******/
+/**{margin:0;padding: 0;font-size: 100%;border:none;outline: none;font-weight: 300;font-family: 'Lato', sans-serif;}
+/*body{background-color: #f5f5f5;}
+/*a{text-decoration: none;}
+/*ul{list-style: none;}
+/*img{max-width: 100%;}
+/******* HEADER ******/
+/*.cabecalho{width: 100%;float: left;padding: 3% 4%;}
+/*.logo{height: 56px;width:56px;float: left;background: url("../img/logo-mobile.png") center center/56px no-repeat;font-size: 0px}
+/*.btn-menu{width: 56px;height: 56px;float: right;text-align: center; color: #fff;cursor: pointer;border-radius: 30px;background: linear-gradient(to right, #ce2e3c, #da6709);}
+/* MENU */
+/*.menu{display:none;width: 100%;height: 100%;position: fixed;background-color: rgba(0,0,0,0.9);margin:-3% -4%;}
+/*.btn-close{font-size: 3em;color: #fff;float: right;cursor: pointer;margin-right: 5%}
+/*.menu ul{width:100%;text-align: center;float: left;}
+/*.menu li{padding: 1.5%}
+/*.menu li a{font-size: 2em;color: #fff;padding: 1.5% 3%;}
+/*.menu li a:hover{border: 1px solid #da6709;}
+/******* BANNER ******/
+/*.banner{width:100%;float:left; padding: 3% 4%; text-align: center;background: url("../img/bg.jpg") no-repeat fixed;}
+/*.title h2{font-size: 2.5em; font-weight: 700;color: #fff;}
+/*.title h3{font-size:1.5em; color:#fff;}
+/*.buttons i{float: right;line-height: unset;}
+/*.btn-cadastrar{width: 100%;float:left;font-size: 1.5em;text-align: center;cursor:pointer;padding: 5%;color: #130400; background-color: #fff;border-radius: 5px;font-weight: 400}
+/*.btn-sobre{width: 100%;float:left;font-size: 1.5em;text-align: center;cursor:pointer;padding: 5%;color: #fff; background-color: #130400;border-radius: 5px;margin-top: 2%;font-weight: 400}
+/******* MAIN ******/
+/*.servicos{width:100%;float:left;padding: 3% 4%;margin-top: 2%;}
+/*.servico{width: 100%;background-color: #fff;text-align: left;}
+/*.servico a:nth-child(1){text-align: center;display: block;}
+/*.servico img{border-radius: 7px 7px 0px 0px;}
+/*.inner{padding: 4%;}
+/*.inner a{font-size: 1.3em;color:#130400;font-weight: 700;text-align: left !important}
+/*.inner h4{font-size: 1.1em;margin-top: 2%;}
+/*.inner p{margin-top: 3%;line-height: 1.5em;}
+/******* NEWS LETTER ******/
+/*newsletter{width:100%;float:left;text-align: center;background-color: #130400;color:#fff;padding: 3% 4%}
+/*.newsletter h2{font-size:1.32em;color:#fff;font-weight:700;}
+/*.newsletter h3{font-size:1em;color:#fff;}
+/*.newsletter form{margin-top: 2%;}
+/*.newsletter input{width:100%;background-color:unset;color:#fff;padding: 5%;border: 1px solid rgba(255,255,255,0.3);font-weight: 400;border-radius: 5px;}
+/******** FOOTER ******/
+/*.rodape{width: 100%;float: left;padding: 3% 4%;text-align: center;background: linear-gradient(to right, #ce2e3c, #da6709);}
+/*.social-icons a{font-size: 1.5em;color: rgba(255,255,255,0.7);margin-right: 3%;}
+/*.social-icons a:hover{color: rgb(255,255,255);}
+/*.social-icons a:last-child{margin-right: 0px;}
+/*
